@@ -9,11 +9,11 @@ fzf and tmux
 tmux-sessionizer [<partial name of session>]
 ```
 
-if you execute tmux-sessionizer without any parameters it will FZF set of default directories or ones specified in config file.
+if you execute tmux-sessionizer without any parameters it will FZF set of default directories or ones specified in config file (see below).
 
 ### Example
 ```bash
-# ~/.config/tmux-sessionizer/tmux-sessionizer.conf
+# file: ~/.config/tmux-sessionizer/tmux-sessionizer.conf
 TS_SEARCH_PATHS=(~/) # set the search path to ~/
 TS_EXTRA_SEARCH_PATHS=(~/Coding:3 ~/Git:3 ~/.config:2 ~/projects:3) # set the extra search paths, with a depth (e.g. ~/Git:3)
 ```
